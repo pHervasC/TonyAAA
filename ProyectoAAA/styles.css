@@ -34,6 +34,19 @@
     display: flex;    
 }
 
+.menu a {
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+}
+
+.menu a:focus {
+    outline: 2px solid #ffcc00; 
+    outline-offset: 4px;
+    background-color: rgba(255, 204, 0, 0.2); 
+    border-radius: 4px; 
+}
+
 .menu li {
     padding-right: 30px;
     font-size: 10px;
@@ -1135,7 +1148,7 @@
 }
 
 .scroll-to-content:focus {
-     outline: 2px solid #ffcc00; 
+    outline: 2px solid #ffcc00; 
     outline-offset: 4px;
     background-color: rgba(255, 204, 0, 0.2); 
     border-radius: 4px; 
